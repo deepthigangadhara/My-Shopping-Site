@@ -1,0 +1,24 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "httplib.js",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node httplib.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepthigangadhara/My-Shopping-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepthigangadhara/My-Shopping-Site/issues"
+  },
+  "homepage": "https://github.com/deepthigangadhara/My-Shopping-Site#readme"
+}
