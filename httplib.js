@@ -35,7 +35,7 @@ http.createServer((req,res)=>{
 
     }
     else{
-        let data=fs.readFileSync('Static/error.html');
+        let data=fs.readFileSync('templates/error.html');
         res.write(data);
 
     }
