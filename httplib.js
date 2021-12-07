@@ -34,6 +34,11 @@ http.createServer((req,res)=>{
         res.write(data);
 
     }
+    else if(req.url==='/fashion'){
+        let data=fs.readFileSync('templates/fashion.html');
+        res.write(data);
+
+    }
     else{
         let data=fs.readFileSync('templates/error.html');
         res.write(data);
